@@ -70,7 +70,9 @@ html {
       .box section .lists .list {
         width: 100%;
         padding: 10px 10px;
-        box-sizing: border-box; }
+        height: 300px;
+        box-sizing: border-box;
+        overflow-y: auto; }
         .box section .lists .list dl {
           width: 100%;
           height: 100px;
