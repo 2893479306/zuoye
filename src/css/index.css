@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+  .box header {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    background: green;
+    align-items: center; }
+  .box section {
+    display: flex;
+    width: 100%;
+    overflow: hidden; }
+    .box section .banner {
+      width: 100%;
+      height: 140px; }
+      .box section .banner .swiper-container {
+        width: 100%;
+        height: 100%; }
+        .box section .banner .swiper-container .swiper-wrapper {
+          width: 100%;
+          height: 100%; }
